@@ -109,7 +109,9 @@ EPOCH, 5
 loss = 0.2697784900665283 Batchid = 2341, Accuracy = 88.07: 100%|██████████| 2342/2342 [02:16<00:00, 17.18it/s]   
 Test error: 
 Accuracy: 89.07849829351535 %,  Avg loss: 0.21
+![Lung Disease Diagnosis](https://github.com/akki415/lung-disease-diagnosis/blob/projects/metrices.png?raw=true
 
+)
 
 ## 🔮 Future Improvements
 
