@@ -198,7 +198,9 @@ Accuracy: 89.07849829351535 %,  Avg loss: 0.21
   http://127.0.0.1:8000/docs
 
   you will get something like
-  
+  ## Project Screenshot
+
+![Lung Disease Diagnosis](images/lung_diagnosis.png)
 ## ⚠️ Disclaimer
 
 This project is intended for educational and research purposes only. Its predictions are not a substitute for professional medical advice, clinical diagnosis, or evaluation by a qualified healthcare professional. The model's reliability depends on the dataset, training methodology, and independent validation.
