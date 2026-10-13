@@ -82,53 +82,8 @@ Here the architecture is completely made from scratch using
 7 convolution block $ 3 deep fully connected layers.
 CNN is used as backbone of architecture.
 
-----------------------------------------------------------------
-        Layer (type)               Output Shape         Param #
-================================================================
-            Conv2d-1          [-1, 8, 222, 222]             224
-              ReLU-2          [-1, 8, 222, 222]               0
-       BatchNorm2d-3          [-1, 8, 222, 222]              16
-         MaxPool2d-4          [-1, 8, 111, 111]               0
-            Conv2d-5         [-1, 20, 109, 109]           1,460
-              ReLU-6         [-1, 20, 109, 109]               0
-       BatchNorm2d-7         [-1, 20, 109, 109]              40
-         MaxPool2d-8           [-1, 20, 54, 54]               0
-            Conv2d-9            [-1, 8, 52, 52]           1,448
-             ReLU-10            [-1, 8, 52, 52]               0
-      BatchNorm2d-11            [-1, 8, 52, 52]              16
-        MaxPool2d-12            [-1, 8, 26, 26]               0
-           Conv2d-13           [-1, 20, 26, 26]             180
-             ReLU-14           [-1, 20, 26, 26]               0
-      BatchNorm2d-15           [-1, 20, 26, 26]              40
-           Conv2d-16           [-1, 36, 24, 24]           6,516
-             ReLU-17           [-1, 36, 24, 24]               0
-      BatchNorm2d-18           [-1, 36, 24, 24]              72
-           Conv2d-19           [-1, 20, 22, 22]           6,500
-             ReLU-20           [-1, 20, 22, 22]               0
-      BatchNorm2d-21           [-1, 20, 22, 22]              40
-           Conv2d-22           [-1, 36, 22, 22]             756
-             ReLU-23           [-1, 36, 22, 22]               0
-      BatchNorm2d-24           [-1, 36, 22, 22]              72
-           Conv2d-25            [-1, 8, 20, 20]           2,600
-             ReLU-26            [-1, 8, 20, 20]               0
-      BatchNorm2d-27            [-1, 8, 20, 20]              16
-AdaptiveAvgPool2d-28              [-1, 8, 1, 1]               0
-           Linear-29                   [-1, 64]             576
-             ReLU-30                   [-1, 64]               0
-           Linear-31                   [-1, 32]           2,080
-             ReLU-32                   [-1, 32]               0
-           Linear-33                    [-1, 2]              66
-================================================================
-Total params: 22,718
-Trainable params: 22,718
-Non-trainable params: 0
-----------------------------------------------------------------
-Input size (MB): 0.57
-Forward/backward pass size (MB): 17.68
-Params size (MB): 0.09
-Estimated Total Size (MB): 18.34
-----------------------------------------------------------------
-
+![Lung Disease Diagnosis](https://github.com/akki415/lung-disease-diagnosis/blob/projects/architecture.png?raw=true
+)
 
 ## 🧠 Model Development
 
