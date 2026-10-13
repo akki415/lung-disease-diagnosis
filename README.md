@@ -31,30 +31,12 @@ The project demonstrates the application of artificial intelligence and computer
 - **Visualization:** Matplotlib, Seaborn
 - **Development Environment:** Jupyter Notebook / Google Colab / VS Code
 
-## 📂 Project Structure
-
-```text
-Lung-Disease-Diagnosis/
-│
-├── dataset/                # Medical image dataset (if included)
-├── notebooks/              # Experiments and model development
-├── models/                 # Saved trained models
-├── src/                    # Source code
-├── results/                # Evaluation results and visualizations
-├── requirements.txt        # Project dependencies
-├── README.md               # Project documentation
-└── main.py                 # Main execution script (if applicable)
-```
-
-*Update the directory structure to match your actual repository.*
-
 ## ⚙️ Installation and Setup
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
+git clone https://github.com/akki415/lung-disease-diagnosis.git
 ```
 
 ### 2. Create a Virtual Environment
@@ -81,8 +63,6 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Ensure that `requirements.txt` contains the libraries required by your implementation.
-
 ## 🚀 Usage
 
 1. Download or prepare the dataset used for training and evaluation.
@@ -97,12 +77,11 @@ For example, if your project uses a Python entry point:
 python main.py
 ```
 
-*Replace this command with the actual execution steps for your project.*
-
 ## 🧠 MODEL ARCHITECTURE
 Here the architecture is completely made from scratch using 
 7 convolution block $ 3 deep fully connected layers.
 CNN is used as backbone of architecture.
+
 ----------------------------------------------------------------
         Layer (type)               Output Shape         Param #
 ================================================================
@@ -201,6 +180,8 @@ Accuracy: 89.07849829351535 %,  Avg loss: 0.21
   ## Project Screenshot
 
 ![Lung Disease Diagnosis](https://github.com/akki415/lung-disease-diagnosis/blob/projects/Screenshot%202026-10-13%20131456.png?raw=true)
+
+
 ## ⚠️ Disclaimer
 
 This project is intended for educational and research purposes only. Its predictions are not a substitute for professional medical advice, clinical diagnosis, or evaluation by a qualified healthcare professional. The model's reliability depends on the dataset, training methodology, and independent validation.
