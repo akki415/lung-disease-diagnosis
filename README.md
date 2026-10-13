@@ -200,7 +200,7 @@ Accuracy: 89.07849829351535 %,  Avg loss: 0.21
   you will get something like
   ## Project Screenshot
 
-![Lung Disease Diagnosis](images/lung_diagnosis.png)
+![Lung Disease Diagnosis](https://github.com/akki415/lung-disease-diagnosis/blob/projects/Screenshot%202026-10-13%20131456.png?raw=true)
 ## ⚠️ Disclaimer
 
 This project is intended for educational and research purposes only. Its predictions are not a substitute for professional medical advice, clinical diagnosis, or evaluation by a qualified healthcare professional. The model's reliability depends on the dataset, training methodology, and independent validation.
